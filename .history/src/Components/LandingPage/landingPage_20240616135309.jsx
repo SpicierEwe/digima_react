@@ -10,8 +10,9 @@ function LandingPage() {
         <NavBar />
         <HeroSection />
         <ImagesSection />
-        <SEOSection />
       </div>
+
+      <SEOSection />
     </div>
   );
 }

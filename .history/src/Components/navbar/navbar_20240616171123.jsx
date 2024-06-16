@@ -34,7 +34,7 @@ export default function NavBar() {
           {/* nav items desktop */}
           <nav className="hidden md:flex items-center space-x-7">
             {navItems.map((item, index) => (
-              <li
+              <button
                 key={index}
                 onClick={(e) => {
                   e.preventDefault();
@@ -42,10 +42,10 @@ export default function NavBar() {
 
                   element.scrollIntoView({ behavior: "smooth" });
                 }}
-                className="list-none text-lg font-medium cursor-pointer"
+                className="text-lg font-medium"
               >
                 {item.name}
-              </li>
+              </button>
             ))}
           </nav>
 

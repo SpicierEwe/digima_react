@@ -47,7 +47,7 @@ export default function ContentMarketing() {
     // Add more data objects here
   ];
   return (
-    <div className="p-5 md:pt-28">
+    <div className="p-5 md:mt-28">
       <h2 className="font-bold text-3xl max-w-lg mx-auto">
         <span className="text-accent"> Content marketing </span> Fueling
         connections, igniting growth.
@@ -67,7 +67,7 @@ export default function ContentMarketing() {
 function Card({ item }) {
   return (
     <div
-      className={` flex flex-col gap-3 md:gap-5 md:flex-row items-center rounded-lg overflow-hidden shadow-lg mx-5 px-3 pb-5 md:pb-0`}
+      className={` flex flex-col gap-3 md:gap-5 md:flex-row items-center rounded-lg overflow-hidden shadow-lg mx-5 px-3 pb-5 pt-20 md:pb-0`}
     >
       {/* image */}
       <div className="h-[15rem] md:h-full w-full  overflow-hidden py-3 md:py-3">

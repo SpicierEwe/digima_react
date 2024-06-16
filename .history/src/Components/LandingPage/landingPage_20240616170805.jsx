@@ -12,24 +12,15 @@ function LandingPage() {
     <div className="overflow-x-hidden">
       <div className="">
         <NavBar />
-        <div id="home">
+        <div>
           <HeroSection />
         </div>
 
         <ImagesSection />
-
-        <div id="seo">
-          <SEOSection />
-        </div>
-        <div id="content-marketing">
-          <ContentMarketing />
-        </div>
-        <div id="analytics">
-          <Analytic />
-        </div>
-
+        <SEOSection />
+        <ContentMarketing />
+        <Analytic />
         <Faq />
-
         <Footer />
       </div>
     </div>

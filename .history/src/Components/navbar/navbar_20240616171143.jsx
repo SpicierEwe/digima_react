@@ -42,7 +42,7 @@ export default function NavBar() {
 
                   element.scrollIntoView({ behavior: "smooth" });
                 }}
-                className="list-none text-lg font-medium cursor-pointer"
+                className="list-none text-lg font-medium"
               >
                 {item.name}
               </li>

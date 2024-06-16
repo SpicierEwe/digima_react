@@ -16,7 +16,7 @@ export default function NavBar() {
     },
     {
       name: "Analytics",
-      url: "analytics",
+      url: "/",
     },
   ];
 
@@ -34,18 +34,17 @@ export default function NavBar() {
           {/* nav items desktop */}
           <nav className="hidden md:flex items-center space-x-7">
             {navItems.map((item, index) => (
-              <li
+              <div
                 key={index}
-                onClick={(e) => {
-                  e.preventDefault();
+                onClick={() => {
                   const element = document.getElementById(item.url);
 
                   element.scrollIntoView({ behavior: "smooth" });
                 }}
-                className="list-none text-lg font-medium cursor-pointer"
+                className="text-lg font-medium"
               >
                 {item.name}
-              </li>
+              </div>
             ))}
           </nav>
 

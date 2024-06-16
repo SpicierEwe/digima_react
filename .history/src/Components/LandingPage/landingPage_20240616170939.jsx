@@ -16,15 +16,17 @@ function LandingPage() {
           <HeroSection />
         </div>
 
-        <ImagesSection />
+        <div id="images">
+          <ImagesSection />
+        </div>
 
         <div id="seo">
           <SEOSection />
         </div>
-        <div id="content-marketing">
+        <div id="cm">
           <ContentMarketing />
         </div>
-        <div id="analytics">
+        <div id="">
           <Analytic />
         </div>
 

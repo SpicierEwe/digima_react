@@ -16,7 +16,9 @@ function LandingPage() {
           <HeroSection />
         </div>
 
-        <ImagesSection />
+        <div id="images">
+          <ImagesSection />
+        </div>
 
         <div id="seo">
           <SEOSection />
@@ -24,7 +26,7 @@ function LandingPage() {
         <div id="content-marketing">
           <ContentMarketing />
         </div>
-        <div id="analytics">
+        <div id="">
           <Analytic />
         </div>
 

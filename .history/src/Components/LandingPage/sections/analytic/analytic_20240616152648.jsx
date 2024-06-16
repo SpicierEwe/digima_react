@@ -10,7 +10,7 @@ export default function Analytic() {
           blanditiis praesentium voluptatum deleniti atque corrupti
         </p>
       </div>
-      <div className="select-none">
+      <div className="select-none cursor-move">
         <img src="/images/graph.svg" alt="graph" />
       </div>
     </div>

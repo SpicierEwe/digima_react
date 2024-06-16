@@ -6,7 +6,7 @@ export default function HeroSection() {
     <section className="flex flex-col md:justify-center">
       <div className="max-w-screen-lg mx-auto px-4 flex flex-col justify-center items-center min-h-screen">
         {/* subtitle */}
-        <h4 className="text-sm  md:text-lg font-semibold  text-center mb-6 tracking-[.5em] md:tracking-[.5em] bg-accent rounded-full p-2 md:p-2.5 px-5 md:px-20 w-fit ">
+        <h4 className="text-md  md:text-lg font-semibold  text-center mb-6 tracking-[.5em] md:tracking-[.5em] bg-accent rounded-full p-2 md:p-2.5 px-5 md:px-20 w-fit ">
           DIGITAL MARKETING
         </h4>
 

@@ -35,19 +35,25 @@ h3 {
 
 
 
-/* custom scrollbar */
-@layer utilities {
 
-    /* Hide scrollbar for Chrome, Safari and Opera */
-    .no-scrollbar::-webkit-scrollbar {
-        display: none;
-    }
 
-    /* Hide scrollbar for IE, Edge and Firefox */
-    .no-scrollbar {
-        -ms-overflow-style: none;
-        /* IE and Edge */
-        scrollbar-width: none;
-        /* Firefox */
-    }
+/* Custom CSS for no-scrollbar class */
+.no-scrollbar {
+    /* Hide the scrollbar */
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    overflow: -moz-scrollbars-none;
+    /* Firefox */
+
+    /* Ensure content is scrollable */
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    /* Smooth scrolling for iOS */
+}
+
+/* For WebKit-based browsers (e.g., Chrome, Safari) */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
 }

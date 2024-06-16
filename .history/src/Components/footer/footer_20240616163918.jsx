@@ -4,39 +4,21 @@ export default function Footer() {
   const sections = [
     {
       title: "Section One",
-      content: [
-        { name: "Lorem One", href: "/section-one/1" },
-        { name: "Lorem Two", href: "/section-one/2" },
-        { name: "Lorem Three", href: "/section-one/3" },
-        { name: "Lorem Four", href: "/section-one/4" },
-      ],
+      content: ["Lorem One", "Lorem Two", "Lorem Three", "Lorem Four"],
     },
     {
       title: "Section Two",
-      content: [
-        { name: "Lorem One", href: "/section-two/1" },
-        { name: "Lorem Two", href: "/section-two/2" },
-        { name: "Lorem Three", href: "/section-two/3" },
-      ],
+      content: ["Lorem One", "Lorem Two", "Lorem Three"],
     },
     {
       title: "Section Three",
-      content: [
-        { name: "Lorem One", href: "/section-three/1" },
-        { name: "Lorem Two", href: "/section-three/2" },
-        { name: "Lorem Three", href: "/section-three/3" },
-        { name: "Lorem Four", href: "/section-three/4" },
-      ],
+      content: ["Lorem One", "Lorem Two", "Lorem Three", "Lorem Four"],
     },
     {
       title: "Section Four",
-      content: [
-        { name: "Lorem One", href: "/section-four/1" },
-        { name: "Lorem Two", href: "/section-four/2" },
-      ],
+      content: ["Lorem One", "Lorem Two"],
     },
   ];
-
   return (
     <footer className="bg-accent py-8  text-black p-5 mt-32">
       <div className="mx-auto flex flex-col items-center">
@@ -49,9 +31,7 @@ export default function Footer() {
               {/* content */}
 
               {section.content.map((item, index) => (
-                <a href={item.href} key={index}>
-                  {item.name}
-                </a>
+                <a key={index}>{item}</a>
               ))}
             </div>
           ))}

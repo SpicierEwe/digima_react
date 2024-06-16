@@ -37,6 +37,8 @@ export default function Footer() {
     },
   ];
 
+  console.log(sections);
+
   return (
     <footer className="bg-accent py-8  text-black p-5 mt-32">
       <div className="mx-auto flex flex-col items-center">
@@ -49,8 +51,8 @@ export default function Footer() {
               {/* content */}
 
               {section.content.map((item, index) => (
-                <a href={item.href} key={index}>
-                  {item.name}
+                <a href="#" key={index}>
+                  {item}
                 </a>
               ))}
             </div>

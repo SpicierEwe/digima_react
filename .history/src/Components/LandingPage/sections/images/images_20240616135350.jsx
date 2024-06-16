@@ -27,12 +27,6 @@ export default function ImagesSection() {
       subtitle:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco l",
     },
-    {
-      src: Utils.dummyImageLink,
-      title: "We Deliver Outstanding Care",
-      subtitle:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco l",
-    },
   ];
 
   return (

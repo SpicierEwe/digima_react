@@ -56,8 +56,8 @@ export default function ContentMarketing() {
       {/* rendering */}
 
       <div className="grid md:grid-cols-2  md:pt-20  p-5 gap-5 gap-y-10 my-14 md:my-16 max-w-screen-xl mx-auto ">
-        {data.map((item, index) => (
-          <Card key={index} item={item} />
+        {data.map((item) => (
+          <Card item={item} />
         ))}
       </div>
     </div>

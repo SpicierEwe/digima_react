@@ -24,7 +24,7 @@ export default function Companies() {
   return (
     <div className="flex gap-x-20 p-5 mb-20 py-12 bg-secondary overflow-x-auto md:justify-center items-center">
       {companies.map((item, index) => (
-        <div key={index} className="flex gap-3 items-center">
+        <div className="flex gap-3 items-center">
           <div className="h-9 w-9 aspect-square overflow-hidden">
             <img src={item.logo} alt={item.name} className="" />
           </div>

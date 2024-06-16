@@ -1,4 +1,5 @@
 import { GiHamburgerMenu } from "react-icons/gi";
+import { Link } from "react-router-dom";
 
 export default function NavBar() {
   const navItems = [
@@ -34,9 +35,9 @@ export default function NavBar() {
           {/* nav items desktop */}
           <nav className="hidden md:flex items-center space-x-7">
             {navItems.map((item, index) => (
-              <a key={index} href={item.url} className="text-lg font-medium">
+              <Link key={index} to={item.url} className="text-lg font-medium">
                 {item.name}
-              </a>
+              </Link>
             ))}
           </nav>
 

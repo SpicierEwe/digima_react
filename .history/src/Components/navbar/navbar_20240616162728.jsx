@@ -34,9 +34,9 @@ export default function NavBar() {
           {/* nav items desktop */}
           <nav className="hidden md:flex items-center space-x-7">
             {navItems.map((item, index) => (
-              <a key={index} href={item.url} className="text-lg font-medium">
+              <link key={index} href={item.url} className="text-lg font-medium">
                 {item.name}
-              </a>
+              </link>
             ))}
           </nav>
 

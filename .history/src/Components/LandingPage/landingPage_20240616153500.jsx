@@ -9,15 +9,16 @@ import SEOSection from "./sections/seo/seo";
 function LandingPage() {
   return (
     <div className="overflow-x-hidden">
-      <div className="">
+      <div className="hidden">
         <NavBar />
         <HeroSection />
         <ImagesSection />
         <SEOSection />
         <ContentMarketing />
         <Analytic />
-        <Faq />
       </div>
+
+      <Faq />
     </div>
   );
 }

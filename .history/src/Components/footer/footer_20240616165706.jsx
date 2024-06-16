@@ -14,25 +14,25 @@ export default function Footer() {
     {
       title: "Section Two",
       content: [
-        { name: "Lorem One", href: "/" },
-        { name: "Lorem Two", href: "/" },
-        { name: "Lorem Three", href: "/" },
+        { name: "Lorem One", href: "/section-two/1" },
+        { name: "Lorem Two", href: "/section-two/2" },
+        { name: "Lorem Three", href: "/section-two/3" },
       ],
     },
     {
       title: "Section Three",
       content: [
-        { name: "Lorem One", href: "/" },
-        { name: "Lorem Two", href: "/" },
-        { name: "Lorem Three", href: "/" },
-        { name: "Lorem Four", href: "/" },
+        { name: "Lorem One", href: "/section-three/1" },
+        { name: "Lorem Two", href: "/section-three/2" },
+        { name: "Lorem Three", href: "/section-three/3" },
+        { name: "Lorem Four", href: "/section-three/4" },
       ],
     },
     {
       title: "Section Four",
       content: [
-        { name: "Lorem One", href: "/" },
-        { name: "Lorem Two", href: "/" },
+        { name: "Lorem One", href: "/section-four/1" },
+        { name: "Lorem Two", href: "/section-four/2" },
       ],
     },
   ];

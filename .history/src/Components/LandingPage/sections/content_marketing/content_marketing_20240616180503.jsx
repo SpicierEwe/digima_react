@@ -47,8 +47,8 @@ export default function ContentMarketing() {
     // Add more data objects here
   ];
   return (
-    <div className="p-5">
-      <h2 className="font-bold max-w-screen-md mx-auto leading-normal">
+    <div className="p-5 md:pt-28">
+      <h2 className="font-bold text-3xl max-w-lg mx-auto leading-normal">
         <span className="text-accent"> Content marketing </span> Fueling
         connections, igniting growth.
       </h2>
@@ -81,14 +81,14 @@ function Card({ item }) {
       <div className="p-3 text-start">
         {/* title */}
         <div className="flex justify-between">
-          <h3 className="font-semibold">{item.title}</h3>
+          <h2 className="text-4xl font-semibold">{item.title}</h2>
           <button className="h-fit border-2 border-black py-1.5 px-4  bg-secondary text-black font-semibold text-xs rounded-full">
             Category
           </button>
         </div>
 
         {/* description */}
-        <p className="mt-7">{item.description}</p>
+        <p className="md:text-md text-sm  mt-7 ">{item.description}</p>
 
         <button className="mt-9  border-2 border-black px-7 py-2 bg-accent text-black font-semibold text-xs rounded-full">
           Read More

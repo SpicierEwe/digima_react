@@ -9,7 +9,7 @@ import SEOSection from "./sections/seo/seo";
 
 function LandingPage() {
   const Divider = (props) => {
-    return <div className="pt-40">{props.children}</div>;
+    return <div className="py-40"></div>;
   };
   return (
     <div className="overflow-x-hidden">
@@ -21,21 +21,19 @@ function LandingPage() {
 
         <ImagesSection />
 
-        <div className="flex flex-col gap-40">
-          <div id="seo">
-            <SEOSection />
-          </div>
-          <div id="content-marketing">
-            <ContentMarketing />
-          </div>
-          <div id="analytics">
-            <Analytic />
-          </div>
-
-          <Faq />
-
-          <Footer />
+        <div id="seo">
+          <SEOSection />
         </div>
+        <div id="content-marketing">
+          <ContentMarketing />
+        </div>
+        <div id="analytics">
+          <Analytic />
+        </div>
+
+        <Faq />
+
+        <Footer />
       </div>
     </div>
   );

@@ -24,9 +24,9 @@ export default function SEOSection() {
     // Add more data objects here
   ];
   return (
-    <div className="max-w-screen-xl mx-auto p-5 py-14 ">
+    <div className="max-w-screen-xl mx-auto p-5 md:py-14 ">
       <div className="flex flex-col md:flex-row justify-between md:items-center gap-5 gap-y-10">
-        <h2 className="leading-snug font-bold text-start md:w-1/2">
+        <h2 className="text-4xl leading-snug font-bold text-start md:w-1/2">
           From clicks to conversions: <br />
           <span className="text-accent"> SEO </span>
           makes it happen
@@ -37,7 +37,7 @@ export default function SEOSection() {
       </div>
 
       {/* rendering */}
-      <div className="flex flex-col  md:flex-row p-5 gap-7 my-14 md:my-16">
+      <div className="flex flex-col  md:flex-row p-5 gap-5 my-14 md:my-16">
         {data.map((item, index) => (
           <div
             key={index}
@@ -54,7 +54,7 @@ export default function SEOSection() {
 
             <div className="p-5 text-start">
               {/* title */}
-              <h3 className="font-semibold">{item.title}</h3>
+              <h3 className="text-xl font-semibold">{item.title}</h3>
 
               {/* description */}
               <p className="mt-3">{item.description}</p>

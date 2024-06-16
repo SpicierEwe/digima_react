@@ -1,8 +1,8 @@
 export default function Analytic() {
   return (
-    <div className="p-5 md:px-9 max-w-screen-xl items-start   flex flex-col md:flex-row gap-y-20 mx-auto gap-x-11 ">
+    <div className="p-5 md:px-9 max-w-screen-xl items-start py-52 flex flex-col md:flex-row gap-y-20 mx-auto gap-x-11 ">
       <div className="text-start md:w-[35%] pt-10 ">
-        <h2 className="font-bold leading-tight">
+        <h2 className=" font-bold leading-tight">
           Analytics-driven strategies.
         </h2>
         <p className="mt-7 leading-relaxed max-w-sm">

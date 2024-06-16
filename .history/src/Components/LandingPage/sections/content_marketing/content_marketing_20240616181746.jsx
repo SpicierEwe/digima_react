@@ -47,8 +47,8 @@ export default function ContentMarketing() {
     // Add more data objects here
   ];
   return (
-    <div className="p-5">
-      <h2 className="font-bold max-w-screen-md mx-auto leading-normal">
+    <div className="p-5 md:pt-28">
+      <h2 className="font-bold text-4xl max-w-lg mx-auto leading-normal">
         <span className="text-accent"> Content marketing </span> Fueling
         connections, igniting growth.
       </h2>

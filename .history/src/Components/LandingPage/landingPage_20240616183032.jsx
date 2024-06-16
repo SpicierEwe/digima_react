@@ -21,7 +21,7 @@ function LandingPage() {
 
         <ImagesSection />
 
-        <div className="flex flex-col gap-40">
+        <div className="flex">
           <div id="seo">
             <SEOSection />
           </div>

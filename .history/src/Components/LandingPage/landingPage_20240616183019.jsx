@@ -21,21 +21,19 @@ function LandingPage() {
 
         <ImagesSection />
 
-        <div className="flex flex-col gap-40">
-          <div id="seo">
-            <SEOSection />
-          </div>
-          <div id="content-marketing">
-            <ContentMarketing />
-          </div>
-          <div id="analytics">
-            <Analytic />
-          </div>
-
-          <Faq />
-
-          <Footer />
+        <div id="seo">
+          <SEOSection />
         </div>
+        <div id="content-marketing">
+          <ContentMarketing />
+        </div>
+        <div id="analytics">
+          <Analytic />
+        </div>
+
+        <Faq />
+
+        <Footer />
       </div>
     </div>
   );

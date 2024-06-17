@@ -4,7 +4,7 @@ import Companies from "./sub_sections/companies";
 export default function HeroSection() {
   return (
     <section className="flex flex-col md:justify-center">
-      <div className="max-w-screen-lg mx-auto px-4 flex flex-col justify-center items-start md:items-center h-screen md:h-[45rem] pt-10 md:pt-0">
+      <div className="max-w-screen-lg mx-auto px-4 flex flex-col justify-center items-start md:items-center h-[60rem] pt-10 md:pt-0">
         {/* subtitle */}
         <h4 className="text-sm  md:text-lg font-semibold  text-center mb-6 tracking-[.5em] md:tracking-[.5em] bg-accent rounded-full p-2 md:p-2.5 px-5 md:px-20 w-fit text-black">
           DIGITAL MARKETING

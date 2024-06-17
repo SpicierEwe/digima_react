@@ -81,9 +81,9 @@ function Card({ item }) {
 
       <div className="flex flex-col gap-5 p-3 text-start">
         {/* title */}
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between">
           <h3 className="font-semibold">{item.title}</h3>
-          <div className="h-fit border-2 border-custom_contact_button py-1.5 px-4  bg-secondary  font-semibold text-xs rounded-full">
+          <div className="h-fit border-2 border-black py-1.5 px-4  bg-secondary text-black font-semibold text-xs rounded-full">
             Category
           </div>
         </div>

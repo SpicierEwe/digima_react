@@ -61,16 +61,13 @@ export default function Footer() {
           {/* Logo */}
 
           <div className="flex flex-col items-start md:items-start py-10 md:py-0 justify-start md:w-[25%] md:ml-10">
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-5">
               <img
                 src="/logo/company_logo.svg"
-                className="text-black"
-                style={{
-                  filter: "brightness(0) invert(0)",
-                }}
+                className="text-black bg-black"
                 alt=""
               />
-              <span className="text-3xl font-semibold">Digima</span>
+              <span className="text-xl font-bold">Digima</span>
             </div>
             <p className="text-sm text-gray-500 pt-5">
               Copyright 2025. Sanstive Lorem Ipsum

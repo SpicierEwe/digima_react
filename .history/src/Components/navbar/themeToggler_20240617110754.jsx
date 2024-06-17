@@ -1,15 +1,20 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { FaCloudMoon } from "react-icons/fa";
 import { LuSun } from "react-icons/lu";
 import { ThemeContext } from "../../providers/themeProvider";
 
 function CustomThemeToggle() {
-  const { isDarkTheme, handleSetIsDarkTheme } = useContext(ThemeContext);
+  const { isDarkTheme, setIsDarkTheme } = useContext(ThemeContext);
   return (
     <button
       className=" p-2 rounded-full bg-white shadow-md border"
       onClick={() => {
-        handleSetIsDarkTheme();
+        setIsDarkTheme(!isDarkTheme);
+        if (document.documentElement.getAttribute("data-theme") === null) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        } else {
+          document.documentElement.removeAttribute("data-theme");
+        }
       }}
     >
       {isDarkTheme ? <LuSun size={20} /> : <FaCloudMoon size={20} />}

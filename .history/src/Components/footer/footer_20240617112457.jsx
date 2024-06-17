@@ -70,7 +70,7 @@ export default function Footer() {
                 }}
                 alt=""
               />
-              <span className="text-3xl font-semibold">Digima</span>
+              <span className="text-3xl font-bold">Digima</span>
             </div>
             <p className="text-sm text-gray-500 pt-5">
               Copyright 2025. Sanstive Lorem Ipsum

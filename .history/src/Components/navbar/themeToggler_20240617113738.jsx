@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { FaCloudMoon } from "react-icons/fa";
 import { LuSun } from "react-icons/lu";
 import { ThemeContext } from "../../providers/themeProvider";

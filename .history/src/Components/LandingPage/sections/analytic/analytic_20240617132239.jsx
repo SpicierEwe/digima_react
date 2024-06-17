@@ -16,8 +16,12 @@ export default function Analytic() {
       </div>
       <div className="select-none">
         <img
-          src={isDarkTheme ? "/images/graph_dark.svg" : "/images/graph.svg"}
-          alt="graph_image"
+          src={
+            isDarkTheme
+              ? "/images/graph-dark.svg"
+              : "/images/landingPage/graph.svg"
+          }
+          alt="graph"
         />
       </div>
     </div>

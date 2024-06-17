@@ -1,8 +1,8 @@
 import { useContext } from "react";
-import { ThemeContext } from "../../../../providers/themeProvider";
 
 export default function Analytic() {
-  const { isDarkTheme } = useContext(ThemeContext);
+
+  const {isDark} = useContext(ThemeContext)
   return (
     <div className="p-5 md:px-9 max-w-screen-xl items-start   flex flex-col md:flex-row gap-y-20 mx-auto gap-x-11 md:py-40 ">
       <div className="text-start md:w-[35%] pt-10 ">
@@ -15,10 +15,7 @@ export default function Analytic() {
         </p>
       </div>
       <div className="select-none">
-        <img
-          src={isDarkTheme ? "/images/graph_dark.svg" : "/images/graph.svg"}
-          alt="graph_image"
-        />
+        <img src="/images/graph.svg" alt="graph" />
       </div>
     </div>
   );

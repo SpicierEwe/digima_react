@@ -91,7 +91,7 @@ function Card({ item }) {
         {/* description */}
         <p className="">{item.description}</p>
 
-        <button className="w-fit  border-2 border-black px-7 py-2 bg-accent text-black font-semibold text-xs rounded-full">
+        <button className="  border-2 border-black px-7 py-2 bg-accent text-black font-semibold text-xs rounded-full">
           Read More
         </button>
       </div>

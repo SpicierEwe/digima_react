@@ -79,7 +79,7 @@ function Card({ item }) {
         />
       </div>
 
-      <div className="flex flex-col gap-5 p-3 text-start">
+      <div className="p-3 text-start">
         {/* title */}
         <div className="flex justify-between">
           <h3 className="font-semibold">{item.title}</h3>
@@ -89,9 +89,9 @@ function Card({ item }) {
         </div>
 
         {/* description */}
-        <p className="">{item.description}</p>
+        <p className="mt-7">{item.description}</p>
 
-        <button className="w-fit  border-2 border-black px-7 py-2 bg-accent text-black font-semibold text-xs rounded-full">
+        <button className="  border-2 border-black px-7 py-2 bg-accent text-black font-semibold text-xs rounded-full">
           Read More
         </button>
       </div>

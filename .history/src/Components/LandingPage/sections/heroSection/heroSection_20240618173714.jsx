@@ -11,7 +11,7 @@ export default function HeroSection() {
         </h4>
 
         {/*  hero title */}
-        <h1 className="text-5xl md:text-6xl text-left md:text-center leading-tight md:leading-tight font-bold   mt-4.5 md:mt-7">
+        <h1 className=" text-left md:text-center leading-tight md:leading-tight font-bold   mt-4.5 md:mt-7">
           Social Media ist zu <span className="text-accent">90%</span> immer
           kostenlos, aber nie umsonst!
         </h1>
